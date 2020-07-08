@@ -1,0 +1,22 @@
+{
+    "name": "Stick_Ur_Notes by Sibashish",
+    "short_name": "Stick_Ur",
+    "start_url": "index.html",
+    "scope": "./",
+    "icons": [
+      {
+        "src": "contract.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "contract.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#9dff1d",
+    "background_color": " rgb(31, 30, 30)",
+    "display": "standalone"
+  }
+  
