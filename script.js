@@ -3,7 +3,8 @@ function createNote( noteTitle,noteBody){
 
     document.getElementById("no-notes").classList.add("hidden");
 
-    let li= document.createElement("li");
+    let li= document.createElement("li");    count-=1;
+
     let a= document.createElement("a");
     let h2= document.createElement("h2");
     let p= document.createElement("p");
