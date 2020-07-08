@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">--> 
+    <link rel="stylesheet" href="style.css">
+   <!-- <link rel="manifest" href="manifest.json" />-->
+</head>
+<body>
+    
+    <div id="heading">
+        <h1 
+         style="font-family: 'Times New Roman', Times, serif;"
+        >Stick_Ur Notes
+        </h1>
+        <p id="ts">By <span style=" font-family: fantasy; font-size: 20px;">Sibashish Biswas</span></p>
+    </div>
+   
+    <div id="form">
+        <form id="inputForm">
+           <input 
+             type="text" 
+             name="title" 
+             id="new-note-title-input" 
+             class="inputText" 
+             placeholder="Title" 
+             autocomplete="off" 
+             required autofocus
+            >
+           <input 
+             type="text" 
+             name="Note Content" 
+             id="new-note-body-input" 
+             class="inputText" 
+             placeholder="Add Describtion" 
+             autocomplete="off" 
+             required
+            >
+           
+           <button 
+            id="btnSubmit"
+            type="submit" 
+            class="btn" 
+            style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 700;"
+            >
+             Create Notes
+            </button>
+        </form>
+    </div>
+
+     <h3 
+       id="no-notes" 
+       style="font-family: cursive;"
+     >
+      No Notes found , add one!
+     </h3>
+     <ul id="notes"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
